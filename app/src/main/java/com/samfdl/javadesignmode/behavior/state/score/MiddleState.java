@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.state.case2;
+package com.samfdl.javadesignmode.behavior.state.score;
 
 //具体状态类：中等
 public class MiddleState extends AbstractState {

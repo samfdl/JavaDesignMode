@@ -4,9 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.samfdl.javadesignmode.behavior.state.case1.StatePatternClient;
-import com.samfdl.javadesignmode.behavior.state.case2.ScoreStateTest;
-import com.samfdl.javadesignmode.create.singleton.case1.SingletonLazy;
+import com.samfdl.javadesignmode.behavior.state.score.ScoreStateTest;
+import com.samfdl.javadesignmode.behavior.state.thread.ThreadStateTest;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        SingletonLazy.main();
 //        StatePatternClient.main();
-        ScoreStateTest.main();
+//        ScoreStateTest.main();
+        ThreadStateTest.main();
     }
 }

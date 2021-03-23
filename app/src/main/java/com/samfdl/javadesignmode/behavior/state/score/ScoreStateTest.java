@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.state.case2;
+package com.samfdl.javadesignmode.behavior.state.score;
 
 public class ScoreStateTest {
     public static void main() {

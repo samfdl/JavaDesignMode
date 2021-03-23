@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.state.case2;
+package com.samfdl.javadesignmode.behavior.state.score;
 
 //具体状态类：不及格
 public class LowState extends AbstractState {

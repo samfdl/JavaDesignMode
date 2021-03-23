@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.state.case2;
+package com.samfdl.javadesignmode.behavior.state.score;
 
 //环境类
 public class ScoreContext {
