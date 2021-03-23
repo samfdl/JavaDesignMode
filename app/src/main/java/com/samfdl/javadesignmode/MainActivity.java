@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.samfdl.javadesignmode.behavior.state.case1.StatePatternClient;
+import com.samfdl.javadesignmode.behavior.state.case2.ScoreStateTest;
 import com.samfdl.javadesignmode.create.singleton.case1.SingletonLazy;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 //        SingletonLazy.main();
-        StatePatternClient.main();
+//        StatePatternClient.main();
+        ScoreStateTest.main();
     }
 }
