@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.samfdl.javadesignmode.behavior.state.case1.StatePatternClient;
 import com.samfdl.javadesignmode.create.singleton.case1.SingletonLazy;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SingletonLazy.main();
+//        SingletonLazy.main();
+        StatePatternClient.main();
     }
 }
