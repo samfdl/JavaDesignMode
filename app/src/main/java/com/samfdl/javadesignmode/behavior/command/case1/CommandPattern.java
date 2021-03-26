@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.command;
+package com.samfdl.javadesignmode.behavior.command.case1;
 
 public class CommandPattern {
     public static void main() {

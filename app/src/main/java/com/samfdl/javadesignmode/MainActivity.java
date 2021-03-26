@@ -4,8 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.samfdl.javadesignmode.behavior.chainOfResponsibility.teacher.LeaveApprovalTest;
-import com.samfdl.javadesignmode.behavior.command.CommandPattern;
+import com.samfdl.javadesignmode.behavior.command.case1.CommandPattern;
 
 public class MainActivity extends AppCompatActivity {
 

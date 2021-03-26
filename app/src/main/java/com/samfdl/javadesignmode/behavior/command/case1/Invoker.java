@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.command;
+package com.samfdl.javadesignmode.behavior.command.case1;
 
 //调用者
 public class Invoker {

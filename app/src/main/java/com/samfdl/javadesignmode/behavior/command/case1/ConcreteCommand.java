@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.command;
+package com.samfdl.javadesignmode.behavior.command.case1;
 
 //具体命令
 public class ConcreteCommand implements Command {
