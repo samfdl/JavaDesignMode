@@ -4,10 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.samfdl.javadesignmode.behavior.command.case1.CommandPattern;
+import com.samfdl.javadesignmode.behavior.command.cook.CookingCommand;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 //        MementoPattern.main();
 //        ChainOfResponsibilityPattern.main();
 //        LeaveApprovalTest.main();
-        CommandPattern.main();
+//        CommandPattern.main();
+        CookingCommand.main();
     }
 }
