@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.samfdl.javadesignmode.behavior.chainOfResponsibility.case1.ChainOfResponsibilityPattern;
+import com.samfdl.javadesignmode.behavior.chainOfResponsibility.case2.LeaveApprovalTest;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 //        ScoreStateTest.main();
 //        ThreadStateTest.main();
 //        MementoPattern.main();
-        ChainOfResponsibilityPattern.main();
+//        ChainOfResponsibilityPattern.main();
+        LeaveApprovalTest.main();
     }
 }
