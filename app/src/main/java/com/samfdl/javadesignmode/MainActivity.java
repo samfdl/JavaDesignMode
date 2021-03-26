@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.samfdl.javadesignmode.behavior.command.cook.CookingCommand;
+import com.samfdl.javadesignmode.structure.composite.CompositePattern;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 //        ChainOfResponsibilityPattern.main();
 //        LeaveApprovalTest.main();
 //        CommandPattern.main();
-        CookingCommand.main();
+//        CookingCommand.main();
+        CompositePattern.main();
     }
 }
