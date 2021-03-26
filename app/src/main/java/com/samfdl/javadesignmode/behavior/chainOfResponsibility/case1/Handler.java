@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.chainOfResponsibility;
+package com.samfdl.javadesignmode.behavior.chainOfResponsibility.case1;
 
 //抽象处理者角色
 public abstract class Handler {

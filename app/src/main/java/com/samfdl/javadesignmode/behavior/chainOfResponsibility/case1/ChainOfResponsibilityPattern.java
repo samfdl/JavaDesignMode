@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.chainOfResponsibility;
+package com.samfdl.javadesignmode.behavior.chainOfResponsibility.case1;
 
 public class ChainOfResponsibilityPattern {
     public static void main() {

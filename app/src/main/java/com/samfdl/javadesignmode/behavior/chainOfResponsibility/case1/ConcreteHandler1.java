@@ -1,10 +1,10 @@
-package com.samfdl.javadesignmode.behavior.chainOfResponsibility;
+package com.samfdl.javadesignmode.behavior.chainOfResponsibility.case1;
 
-//具体处理者角色2
-public class ConcreteHandler2 extends Handler {
+//具体处理者角色1
+public class ConcreteHandler1 extends Handler {
     public void handleRequest(String request) {
-        if (request.equals("two")) {
-            System.out.println("具体处理者2负责处理该请求！");
+        if (request.equals("one")) {
+            System.out.println("具体处理者1负责处理该请求！");
         } else {
             if (getNext() != null) {
                 getNext().handleRequest(request);

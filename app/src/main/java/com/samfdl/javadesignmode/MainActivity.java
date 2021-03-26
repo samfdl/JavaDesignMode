@@ -4,10 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.samfdl.javadesignmode.behavior.chainOfResponsibility.ChainOfResponsibilityPattern;
-import com.samfdl.javadesignmode.behavior.memento.MementoPattern;
-import com.samfdl.javadesignmode.behavior.state.score.ScoreStateTest;
-import com.samfdl.javadesignmode.behavior.state.thread.ThreadStateTest;
+import com.samfdl.javadesignmode.behavior.chainOfResponsibility.case1.ChainOfResponsibilityPattern;
 
 public class MainActivity extends AppCompatActivity {
 
