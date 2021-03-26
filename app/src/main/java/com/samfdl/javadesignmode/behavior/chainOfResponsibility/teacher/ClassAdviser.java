@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.chainOfResponsibility.case2;
+package com.samfdl.javadesignmode.behavior.chainOfResponsibility.teacher;
 
 //具体处理者1：班主任类
 public class ClassAdviser extends Leader {

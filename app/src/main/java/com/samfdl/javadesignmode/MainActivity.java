@@ -4,8 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.samfdl.javadesignmode.behavior.chainOfResponsibility.case1.ChainOfResponsibilityPattern;
-import com.samfdl.javadesignmode.behavior.chainOfResponsibility.case2.LeaveApprovalTest;
+import com.samfdl.javadesignmode.behavior.chainOfResponsibility.teacher.LeaveApprovalTest;
 
 public class MainActivity extends AppCompatActivity {
 

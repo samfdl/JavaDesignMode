@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.chainOfResponsibility.case2;
+package com.samfdl.javadesignmode.behavior.chainOfResponsibility.teacher;
 
 //抽象处理者：领导类
 public abstract class Leader {

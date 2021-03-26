@@ -1,4 +1,4 @@
-package com.samfdl.javadesignmode.behavior.chainOfResponsibility.case2;
+package com.samfdl.javadesignmode.behavior.chainOfResponsibility.teacher;
 
 public class LeaveApprovalTest {
     public static void main() {
