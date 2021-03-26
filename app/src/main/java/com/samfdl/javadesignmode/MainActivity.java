@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.samfdl.javadesignmode.behavior.chainOfResponsibility.teacher.LeaveApprovalTest;
+import com.samfdl.javadesignmode.behavior.command.CommandPattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 //        ThreadStateTest.main();
 //        MementoPattern.main();
 //        ChainOfResponsibilityPattern.main();
-        LeaveApprovalTest.main();
+//        LeaveApprovalTest.main();
+        CommandPattern.main();
     }
 }
