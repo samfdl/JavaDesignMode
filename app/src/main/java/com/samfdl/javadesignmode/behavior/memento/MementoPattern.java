@@ -1,5 +1,6 @@
 package com.samfdl.javadesignmode.behavior.memento;
 
+// 备忘录模式，软件ctrl+z回退功能的实现方式
 public class MementoPattern {
     public static void main() {
         Originator or = new Originator();

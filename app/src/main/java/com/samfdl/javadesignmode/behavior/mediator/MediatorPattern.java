@@ -1,5 +1,6 @@
 package com.samfdl.javadesignmode.behavior.mediator;
 
+// 中介者模式，微信群聊的实现方式
 public class MediatorPattern {
     public static void main() {
         Mediator md = new ConcreteMediator();
