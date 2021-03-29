@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.samfdl.javadesignmode.behavior.command.cook.CookingCommand;
 import com.samfdl.javadesignmode.structure.composite.CompositePattern;
+import com.samfdl.javadesignmode.structure.proxy.ProxyTest;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 //        LeaveApprovalTest.main();
 //        CommandPattern.main();
 //        CookingCommand.main();
-        CompositePattern.main();
+//        CompositePattern.main();
+        ProxyTest.main();
     }
 }
