@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.samfdl.javadesignmode.behavior.command.cook.CookingCommand;
+import com.samfdl.javadesignmode.behavior.mediator.Mediator;
+import com.samfdl.javadesignmode.behavior.mediator.MediatorPattern;
 import com.samfdl.javadesignmode.structure.composite.CompositePattern;
 import com.samfdl.javadesignmode.structure.proxy.ProxyTest;
 
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 //        CommandPattern.main();
 //        CookingCommand.main();
 //        CompositePattern.main();
-        ProxyTest.main();
+//        ProxyTest.main();
+        MediatorPattern.main();
     }
 }
