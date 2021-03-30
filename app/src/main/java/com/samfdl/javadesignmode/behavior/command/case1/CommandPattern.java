@@ -1,5 +1,6 @@
 package com.samfdl.javadesignmode.behavior.command.case1;
 
+// 命令模式，
 public class CommandPattern {
     public static void main() {
         Command cmd = new ConcreteCommand();
