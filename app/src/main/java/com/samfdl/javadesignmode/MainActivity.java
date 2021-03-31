@@ -11,6 +11,7 @@ import com.samfdl.javadesignmode.behavior.mediator.MediatorPattern;
 import com.samfdl.javadesignmode.behavior.strategy.StrategyPattern;
 import com.samfdl.javadesignmode.behavior.visitor.VisitorPattern;
 import com.samfdl.javadesignmode.structure.composite.CompositePattern;
+import com.samfdl.javadesignmode.structure.facade.FacadePattern;
 import com.samfdl.javadesignmode.structure.proxy.ProxyTest;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 //        MediatorPattern.main();
 //        VisitorPattern.main();
 //        IteratorPattern.main();
-        StrategyPattern.main();
+//        StrategyPattern.main();
+        FacadePattern.main();
     }
 }
