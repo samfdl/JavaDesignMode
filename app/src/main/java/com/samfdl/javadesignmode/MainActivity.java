@@ -10,6 +10,7 @@ import com.samfdl.javadesignmode.behavior.mediator.Mediator;
 import com.samfdl.javadesignmode.behavior.mediator.MediatorPattern;
 import com.samfdl.javadesignmode.behavior.strategy.StrategyPattern;
 import com.samfdl.javadesignmode.behavior.visitor.VisitorPattern;
+import com.samfdl.javadesignmode.create.prototype.PrototypeTest;
 import com.samfdl.javadesignmode.structure.composite.CompositePattern;
 import com.samfdl.javadesignmode.structure.facade.FacadePattern;
 import com.samfdl.javadesignmode.structure.proxy.ProxyTest;
@@ -35,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
 //        VisitorPattern.main();
 //        IteratorPattern.main();
 //        StrategyPattern.main();
-        FacadePattern.main();
+//        FacadePattern.main();
+
+        try {
+            PrototypeTest.main();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
     }
 }
